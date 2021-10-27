@@ -78,7 +78,7 @@ bash finetune_elue_patience.sh
 
 ## Contact
 
-If you have any problems, raise a issue or contact [Xiangyang Liu](mailto:palladiozt@gmail.com)
+If you have any problems, raise an issue or contact [Xiangyang Liu](mailto:palladiozt@gmail.com)
 
 ## Citation
 
