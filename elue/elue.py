@@ -1,15 +1,8 @@
 """ elue processors and helpers """
 
 import os
-import warnings
-from dataclasses import asdict
 from enum import Enum
 from typing import List, Optional, Union
-
-from datasets import ClassLabel, load_dataset, load_metric
-from datasets.dataset_dict import DatasetDict, IterableDatasetDict
-from datasets.arrow_dataset import Dataset
-from datasets.iterable_dataset import IterableDataset
 
 from transformers.file_utils import is_tf_available
 from transformers.tokenization_utils import PreTrainedTokenizer
