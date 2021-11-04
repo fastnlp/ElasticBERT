@@ -1,6 +1,6 @@
 # ElasticBERT
 
-<div align=center><img width="150" height="150" src="https://github.com/fastnlp/ElasticBERT/blob/main/pics/elasticBERT.gif"/></div>
+<div align=center><img width="250" height="480" src="https://github.com/fastnlp/ElasticBERT/blob/main/pics/elasticBERT.gif"/></div>
 
 This repository contains finetuning code and checkpoints for **ElasticBERT**.
 
