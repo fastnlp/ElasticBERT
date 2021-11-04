@@ -1,6 +1,6 @@
 # ElasticBERT
 
-![ElasticBERT-gif](https://github.com/fastnlp/ElasticBERT/pics/elasticBERT.gif)
+![ElasticBERT-gif](https://github.com/fastnlp/ElasticBERT/blob/main/pics/elasticBERT.gif)
 
 This repository contains finetuning code and checkpoints for **ElasticBERT**.
 
