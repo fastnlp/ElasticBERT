@@ -1,5 +1,7 @@
 # ElasticBERT
 
+![ElasticBERT-gif](https://github.com/fastnlp/ElasticBERT/pics/elasticBERT.gif)
+
 This repository contains finetuning code and checkpoints for **ElasticBERT**.
 
 [**Towards Efficient NLP: A Standard Evaluation and A Strong Baseline**](https://arxiv.org/pdf/2110.07038.pdf)
