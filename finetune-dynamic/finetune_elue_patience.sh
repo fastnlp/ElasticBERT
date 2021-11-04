@@ -9,7 +9,7 @@ python ./run_elue_patience.py \
   --do_lower_case \
   --data_dir "$ELUE_DIR/$TASK_NAME" \
   --log_dir ./logs/elue/patience \
-  --output_dir ./ckpts/elue/patience$TASK_NAME \
+  --output_dir ./ckpts/elue/patience/$TASK_NAME \
   --num_hidden_layers 12 \
   --num_output_layers 12 \
   --max_seq_length 128 \
@@ -32,7 +32,7 @@ python ./run_elue_patience.py \
   --do_lower_case \
   --data_dir "$ELUE_DIR/$TASK_NAME" \
   --log_dir ./logs/elue/patience \
-  --output_dir ./ckpts/elue/patience$TASK_NAME \
+  --output_dir ./ckpts/elue/patience/$TASK_NAME \
   --num_hidden_layers 12 \
   --num_output_layers 12 \
   --max_seq_length 128 \
