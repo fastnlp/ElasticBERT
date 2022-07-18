@@ -5,7 +5,7 @@
 
 This repository contains finetuning code and checkpoints for **ElasticBERT**.
 
-[**Towards Efficient NLP: A Standard Evaluation and A Strong Baseline**](https://arxiv.org/pdf/2110.07038.pdf)
+[**Towards Efficient NLP: A Standard Evaluation and A Strong Baseline**](https://aclanthology.org/2022.naacl-main.240/)
 
 Xiangyang Liu, Tianxiang Sun, Junliang He, Lingling Wu, Xinyu Zhang, Hao Jiang, Zhao Cao, Xuanjing Huang, Xipeng Qiu
 
@@ -88,25 +88,24 @@ If you have any problems, raise an issue or contact [Xiangyang Liu](mailto:palla
 If you find this repo helpful, we'd appreciate it a lot if you can cite the corresponding paper:
 
 ```
-@article{liu2021elasticbert,
-  author    = {Xiangyang Liu and
-               Tianxiang Sun and
-               Junliang He and
-               Lingling Wu and
-               Xinyu Zhang and
-               Hao Jiang and
-               Zhao Cao and
-               Xuanjing Huang and
-               Xipeng Qiu},
-  title     = {Towards Efficient {NLP:} {A} Standard Evaluation and {A} Strong Baseline},
-  journal   = {CoRR},
-  volume    = {abs/2110.07038},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2110.07038},
-  eprinttype = {arXiv},
-  eprint    = {2110.07038},
-  timestamp = {Fri, 22 Oct 2021 13:33:09 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2110-07038.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{liu-etal-2022-towards-efficient,
+    title = "Towards Efficient {NLP}: A Standard Evaluation and A Strong Baseline",
+    author = "Liu, Xiangyang  and
+      Sun, Tianxiang  and
+      He, Junliang  and
+      Wu, Jiawen  and
+      Wu, Lingling  and
+      Zhang, Xinyu  and
+      Jiang, Hao  and
+      Cao, Zhao  and
+      Huang, Xuanjing  and
+      Qiu, Xipeng",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-main.240",
+    pages = "3288--3303",
 }
 ```
