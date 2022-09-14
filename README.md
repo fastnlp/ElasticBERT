@@ -3,7 +3,6 @@
 <div align=center><img width="167" height="320" src="https://github.com/fastnlp/ElasticBERT/blob/main/pics/elasticBERT.gif"/></div>
 <div align=center><img width="556" height="161" src="https://github.com/fastnlp/ElasticBERT/blob/main/pics/pic.png"/></div>
 
-- **`ElasticBERT-Chinese-BASE`**: ElasticBERT-Chinese has been uploaded to [huggingface model hub](https://huggingface.co/fnlp/elasticbert-chinese-base). Welcome to download and use it.
 
 This repository contains finetuning code and checkpoints for **ElasticBERT**.
 
@@ -28,6 +27,7 @@ We provide the pre-trained weights of **ElasticBERT-BASE** and **ElasticBERT-LAR
 
 - **`ElasticBERT-BASE`**: 12 layers, 12 Heads and 768 Hidden Size.
 - **`ElasticBERT-LARGE`**: 24 layers, 16 Heads and 1024 Hidden Size.
+- **`ElasticBERT-Chinese-BASE`**: ElasticBERT-Chinese has been uploaded to [huggingface model hub](https://huggingface.co/fnlp/elasticbert-chinese-base). Welcome to download and use it.
 
 The pre-trained weights can be downloaded here.
 | Model | `MODEL_NAME`|
