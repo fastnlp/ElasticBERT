@@ -427,7 +427,7 @@ class ElasticBertEncoder(nn.Module):
                         hidden_states = gradient_rescale(hidden_states, 1.0 / (self.num_hidden_layers - i))
                     output_sequence_outputs += (hidden_states, )
                     if self.add_pooling_layer:
-                        pooled_output = self.pooler[i-self.start_output_layer](hidden_states)
+                        pooled_output = self.pooler[i](hidden_states)
                         output_pooled_outputs += (pooled_output, )
                     else:
                         output_pooled_outputs += (hidden_states[:, 0], )
